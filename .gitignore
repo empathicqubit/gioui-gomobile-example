@@ -1,0 +1,11 @@
+/keys.store
+/build
+debug
+__debug_bin
+R.java
+*.env
+.DS_Store
+*.jar
+*.aar
+*.[xX]cframework
+*.[fF]ramework

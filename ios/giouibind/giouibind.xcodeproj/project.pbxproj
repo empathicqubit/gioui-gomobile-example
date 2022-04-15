@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2422052D280388F30075E3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422052C280388F30075E3DF /* AppDelegate.swift */; };
+		24220531280388F30075E3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24220530280388F30075E3DF /* ViewController.swift */; };
+		24220544280388F50075E3DF /* giouibindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24220543280388F50075E3DF /* giouibindTests.swift */; };
+		2422054E280388F50075E3DF /* giouibindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422054D280388F50075E3DF /* giouibindUITests.swift */; };
+		24220550280388F50075E3DF /* giouibindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422054F280388F50075E3DF /* giouibindUITestsLaunchTests.swift */; };
+		2422055E280389530075E3DF /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422055D280389530075E3DF /* GameController.framework */; };
+		24220560280389580075E3DF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422055F280389580075E3DF /* AudioToolbox.framework */; };
+		242205622803895E0075E3DF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242205612803895E0075E3DF /* OpenGLES.framework */; };
+		24220564280389670075E3DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24220563280389670075E3DF /* AVFoundation.framework */; };
+		242205662803896D0075E3DF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242205652803896D0075E3DF /* GLKit.framework */; };
+		2422056D28039C680075E3DF /* GodObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422056C28039C680075E3DF /* GodObject.swift */; };
+		24A5E8E42804545E007CBEF9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A5E8E32804545E007CBEF9 /* ExternalAccessory.framework */; };
+		24D0447E2806A14B00C93659 /* Mobile.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D0447D2806A14B00C93659 /* Mobile.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24220540280388F50075E3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24220521280388F30075E3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24220528280388F30075E3DF;
+			remoteInfo = giouibind;
+		};
+		2422054A280388F50075E3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24220521280388F30075E3DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24220528280388F30075E3DF;
+			remoteInfo = giouibind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2422056A280389800075E3DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24220529280388F30075E3DF /* giouibind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giouibind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422052C280388F30075E3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24220530280388F30075E3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2422053A280388F50075E3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2422053F280388F50075E3DF /* giouibindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giouibindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24220543280388F50075E3DF /* giouibindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giouibindTests.swift; sourceTree = "<group>"; };
+		24220549280388F50075E3DF /* giouibindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giouibindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422054D280388F50075E3DF /* giouibindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giouibindUITests.swift; sourceTree = "<group>"; };
+		2422054F280388F50075E3DF /* giouibindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giouibindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2422055D280389530075E3DF /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		2422055F280389580075E3DF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		242205612803895E0075E3DF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		24220563280389670075E3DF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		242205652803896D0075E3DF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2422056C28039C680075E3DF /* GodObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodObject.swift; sourceTree = "<group>"; };
+		24A5E8E32804545E007CBEF9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		24D044752806938A00C93659 /* giouibind-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "giouibind-Bridging-Header.h"; sourceTree = "<group>"; };
+		24D0447D2806A14B00C93659 /* Mobile.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Mobile.xcframework; path = ../../build/Mobile.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24220526280388F30075E3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A5E8E42804545E007CBEF9 /* ExternalAccessory.framework in Frameworks */,
+				24220564280389670075E3DF /* AVFoundation.framework in Frameworks */,
+				24D0447E2806A14B00C93659 /* Mobile.xcframework in Frameworks */,
+				2422055E280389530075E3DF /* GameController.framework in Frameworks */,
+				24220560280389580075E3DF /* AudioToolbox.framework in Frameworks */,
+				242205662803896D0075E3DF /* GLKit.framework in Frameworks */,
+				242205622803895E0075E3DF /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422053C280388F50075E3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24220546280388F50075E3DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24220520280388F30075E3DF = {
+			isa = PBXGroup;
+			children = (
+				2422052B280388F30075E3DF /* giouibind */,
+				24220542280388F50075E3DF /* giouibindTests */,
+				2422054C280388F50075E3DF /* giouibindUITests */,
+				2422052A280388F30075E3DF /* Products */,
+				2422055C280389530075E3DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2422052A280388F30075E3DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24220529280388F30075E3DF /* giouibind.app */,
+				2422053F280388F50075E3DF /* giouibindTests.xctest */,
+				24220549280388F50075E3DF /* giouibindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2422052B280388F30075E3DF /* giouibind */ = {
+			isa = PBXGroup;
+			children = (
+				2422052C280388F30075E3DF /* AppDelegate.swift */,
+				24220530280388F30075E3DF /* ViewController.swift */,
+				2422053A280388F50075E3DF /* Info.plist */,
+				2422056C28039C680075E3DF /* GodObject.swift */,
+				24D044752806938A00C93659 /* giouibind-Bridging-Header.h */,
+			);
+			path = giouibind;
+			sourceTree = "<group>";
+		};
+		24220542280388F50075E3DF /* giouibindTests */ = {
+			isa = PBXGroup;
+			children = (
+				24220543280388F50075E3DF /* giouibindTests.swift */,
+			);
+			path = giouibindTests;
+			sourceTree = "<group>";
+		};
+		2422054C280388F50075E3DF /* giouibindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2422054D280388F50075E3DF /* giouibindUITests.swift */,
+				2422054F280388F50075E3DF /* giouibindUITestsLaunchTests.swift */,
+			);
+			path = giouibindUITests;
+			sourceTree = "<group>";
+		};
+		2422055C280389530075E3DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D0447D2806A14B00C93659 /* Mobile.xcframework */,
+				24A5E8E32804545E007CBEF9 /* ExternalAccessory.framework */,
+				242205652803896D0075E3DF /* GLKit.framework */,
+				24220563280389670075E3DF /* AVFoundation.framework */,
+				242205612803895E0075E3DF /* OpenGLES.framework */,
+				2422055F280389580075E3DF /* AudioToolbox.framework */,
+				2422055D280389530075E3DF /* GameController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24220528280388F30075E3DF /* giouibind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24220553280388F50075E3DF /* Build configuration list for PBXNativeTarget "giouibind" */;
+			buildPhases = (
+				24220525280388F30075E3DF /* Sources */,
+				24220526280388F30075E3DF /* Frameworks */,
+				24220527280388F30075E3DF /* Resources */,
+				2422056A280389800075E3DF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giouibind;
+			productName = giouibind;
+			productReference = 24220529280388F30075E3DF /* giouibind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2422053E280388F50075E3DF /* giouibindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24220556280388F50075E3DF /* Build configuration list for PBXNativeTarget "giouibindTests" */;
+			buildPhases = (
+				2422053B280388F50075E3DF /* Sources */,
+				2422053C280388F50075E3DF /* Frameworks */,
+				2422053D280388F50075E3DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24220541280388F50075E3DF /* PBXTargetDependency */,
+			);
+			name = giouibindTests;
+			productName = giouibindTests;
+			productReference = 2422053F280388F50075E3DF /* giouibindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24220548280388F50075E3DF /* giouibindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24220559280388F50075E3DF /* Build configuration list for PBXNativeTarget "giouibindUITests" */;
+			buildPhases = (
+				24220545280388F50075E3DF /* Sources */,
+				24220546280388F50075E3DF /* Frameworks */,
+				24220547280388F50075E3DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2422054B280388F50075E3DF /* PBXTargetDependency */,
+			);
+			name = giouibindUITests;
+			productName = giouibindUITests;
+			productReference = 24220549280388F50075E3DF /* giouibindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24220521280388F30075E3DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					24220528280388F30075E3DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1330;
+					};
+					2422053E280388F50075E3DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 24220528280388F30075E3DF;
+					};
+					24220548280388F50075E3DF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 24220528280388F30075E3DF;
+					};
+				};
+			};
+			buildConfigurationList = 24220524280388F30075E3DF /* Build configuration list for PBXProject "giouibind" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24220520280388F30075E3DF;
+			productRefGroup = 2422052A280388F30075E3DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24220528280388F30075E3DF /* giouibind */,
+				2422053E280388F50075E3DF /* giouibindTests */,
+				24220548280388F50075E3DF /* giouibindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24220527280388F30075E3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422053D280388F50075E3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24220547280388F50075E3DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24220525280388F30075E3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24220531280388F30075E3DF /* ViewController.swift in Sources */,
+				2422052D280388F30075E3DF /* AppDelegate.swift in Sources */,
+				2422056D28039C680075E3DF /* GodObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422053B280388F50075E3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24220544280388F50075E3DF /* giouibindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24220545280388F50075E3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24220550280388F50075E3DF /* giouibindUITestsLaunchTests.swift in Sources */,
+				2422054E280388F50075E3DF /* giouibindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24220541280388F50075E3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24220528280388F30075E3DF /* giouibind */;
+			targetProxy = 24220540280388F50075E3DF /* PBXContainerItemProxy */;
+		};
+		2422054B280388F50075E3DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24220528280388F30075E3DF /* giouibind */;
+			targetProxy = 2422054A280388F50075E3DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24220551280388F50075E3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				SDKROOT = iphoneos;
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24220552280388F50075E3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				SDKROOT = iphoneos;
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24220554280388F50075E3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = giouibind/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = gl.entan.giouibind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "giouibind/giouibind-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24220555280388F50075E3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = giouibind/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = gl.entan.giouibind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_BITCODE_FROM_COPIED_FILES = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "giouibind/giouibind-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24220557280388F50075E3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gl.entan.giouibindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giouibind.app/giouibind";
+			};
+			name = Debug;
+		};
+		24220558280388F50075E3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gl.entan.giouibindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giouibind.app/giouibind";
+			};
+			name = Release;
+		};
+		2422055A280388F50075E3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gl.entan.giouibindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = giouibind;
+			};
+			name = Debug;
+		};
+		2422055B280388F50075E3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FL95D4X28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gl.entan.giouibindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = giouibind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24220524280388F30075E3DF /* Build configuration list for PBXProject "giouibind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24220551280388F50075E3DF /* Debug */,
+				24220552280388F50075E3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24220553280388F50075E3DF /* Build configuration list for PBXNativeTarget "giouibind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24220554280388F50075E3DF /* Debug */,
+				24220555280388F50075E3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24220556280388F50075E3DF /* Build configuration list for PBXNativeTarget "giouibindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24220557280388F50075E3DF /* Debug */,
+				24220558280388F50075E3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24220559280388F50075E3DF /* Build configuration list for PBXNativeTarget "giouibindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422055A280388F50075E3DF /* Debug */,
+				2422055B280388F50075E3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24220521280388F30075E3DF /* Project object */;
+}
